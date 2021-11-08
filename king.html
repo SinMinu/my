@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Youtube</title>
+    <script src="https://kit.fontawesome.com/2d323a629b.js">
+        crossorigin = "anonymous"
+    </script>
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <!-- 헤더 -->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <!-- 비디오 플레이어 -->
+    <section class="player">
+        <video controls src="/video/킹덤 - 메인 예고편 [HD] - Netflix.mp4"></video>
+    </section>
+
+    <!-- 비디오 설명 -->
+    <div class="infoAndUpNext">
+        <section class="info">
+            <!-- 메타데이터 -->
+            <div class="metadata">
+                <ul class="hashtags">
+                    <li>#킹덤</li>
+                    <li>#종이의집</li>
+                    <li>#주지훈</li>
+                </ul>
+                <div class="titleAndButton">
+                    <span class="title clamp">
+                        킹덤|메인 예고편[HD]|Netflix
+                    </span>
+                </div>
+                <span class="views">조회수 543,428회</span>
+            </div>
+            <!-- 액션 -->
+            <div class="actions">
+                <li>
+                    <button>
+                        <i class="active fas fa-thumbs-up"></i>
+                        <span>2.5천</span>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fas fa-thumbs-down"></i>
+                        <span>9</span>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fas fa-share"></i>
+                        <span>공유</span>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fas fa-plus"></i>
+                        <span>저장</span>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fab fa-font-awesome-flag"></i>
+                        <span>신고</span>
+                    </button>
+                </li>
+            </div>
+            <!-- 채널 -->
+            <div class="channel">
+                <div class="metadata">
+                    <img src="/image/net.jpg" alt="">
+                    <div class="info">
+                        <span class="name">NetFlix Korea 넷플릭스 코리아</span>
+                        <span class="subscribers">구독자 63.2만명</span>
+                        <span class="p clamp">
+                            음모가 역병이 되어 퍼졌다!<br>
+                            피할 수 없는 거대한 서사의 시작<br>
+                            2019 최고 기대작 ≪킹덤≫, 1월 25일 오직 넷플릭스에서!<br>
+                            넷플릭스 채널 구독 : <A href="https://bit.ly/2HUnqDr"> https://bit.ly/2HUnqDr </A> <br><br>
+                        </span>
+                        <button class="moreBtn clicked">더보기</button>
+                    </div>
+                </div>
+                <button class="subscribe">구독
+                </button>
+            </div>
+        </section>
+        <section class="UpNext">
+            <span class="class">다른 영상</span>
+            <ul>
+                <li class="item">
+                    <div class="img"> <A href="index.html"><img src="/image/dp.jpg" alt=""></A>
+                    </div>
+                    <span class="info">
+                        <span class="title">D.P. / 메인 예고편</span>
+                        <span class="name">NetFlix Korea 넷플릭스 코리아</span>
+                        <span class="view">조회수 57만회</span>
+                    </span>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><A href="game.html"><img src="/image/game.jpg" alt=""></A></div>
+                    <span class="info">
+                        <span class="title">오징어게임 / 티저 예고편</span>
+                        <span class="name">NetFlix Korea 넷플릭스 코리아</span>
+                        <span class="view">조회수 160만회</span>
+                    </span>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><A href="house.html"><img src="/image/ho.jpg" alt=""></A></div>
+                    <span class="info">
+                        <span class="title">종이의 집:파트 5 1부 / 공식 예고편</span>
+                        <span class="name">NetFlix Korea 넷플릭스 코리아</span>
+                        <span class="view">조회수 9.7만회</span>
+                    </span>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+            </ul>
+        </section>
+
+
+    </div>
+</body>
+
+</html>
